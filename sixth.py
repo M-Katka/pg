@@ -29,5 +29,6 @@ if __name__ == "__main__":
         vysledek = download_url_and_get_all_hrefs(url)
         print(vysledek)
    
+   
     except Exception as e:
         print(f"Program skoncil chybou: {e}")
